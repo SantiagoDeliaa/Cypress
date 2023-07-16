@@ -1,7 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  projectId: '4axu3f',
+  projectId: '42x1mt',
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
@@ -10,3 +10,5 @@ module.exports = defineConfig({
     watchForFileChanges: false,
   },
 });
+
+//npx cypress run --record --key 2c7daddc-c499-415b-bb55-63886bde9a43
