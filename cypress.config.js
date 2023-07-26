@@ -8,7 +8,8 @@ module.exports = defineConfig({
     },
     "baseUrl": 'https://pushing-front.vercel.app/',
     watchForFileChanges: false,
+    defaultCommandTimeout: 30000
   },
-});
+}); 
 
 //npx cypress run --record --key 2c7daddc-c499-415b-bb55-63886bde9a43
