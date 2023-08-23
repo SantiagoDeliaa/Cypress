@@ -10,6 +10,10 @@ module.exports = defineConfig({
     watchForFileChanges: false,
     defaultCommandTimeout: 30000
   },
+  env: {
+    username: 'pushinit',
+    password: '123456!',
+      },
 }); 
 
 //npx cypress run --record --key 2c7daddc-c499-415b-bb55-63886bde9a43
